@@ -1,0 +1,27 @@
+#cards{
+    padding: 20px;
+    margin: 10px;
+    background-color: burlywood;
+    box-shadow: 0 2px 3px black;
+    border-radius: 8px;
+    width: 200px;
+}
+#dummycards{
+    display: grid;
+    grid-template-columns: repeat(250px,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+#btncontainer{
+    margin: 0;
+    padding: 50px;
+    background-color: rgb(127, 255, 144);
+    width: 200px;
+
+}
+button{
+    background-color: rgb(240, 138, 5);
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+    border-radius: 4px;
+}
